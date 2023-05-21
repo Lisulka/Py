@@ -23,7 +23,7 @@ def extract_email_data():
 
     # Iterate over each mail in the folder
     for mail in mails:
-        if item.Class == 43:  # Check  if the mail is a mail item
+        if mail.Class == 43:  # Check  if the mail is a mail item
             body = mail.Body
 
             # Extract the desired fields from the email body
