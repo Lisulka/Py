@@ -1,4 +1,4 @@
-# Pre-requirement modules = win32com and re
+# Pre-required modules = pywin32 and re
 # Python script to get and parse Fortigate's IPS email alerts stored in a specific folder inside inbox.
 # This script is looking for a unique source ip address in a body and get all related to him attacks and their dates&times.
 # This script also displays the source country of the attacker ip address and the sassionid in forigate logs.
